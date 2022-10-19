@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{%load my_templates%}
+{% block body_block %}
+    <h1>WELCOME TO INDEX</h1>
+    <!-- <h2>This is the template inheritence </h2> -->
+    <h1>{{text|cut:'wor'}}</h1>
+    <h1>{{numbers}}</h1>
+
+{% endblock %}
